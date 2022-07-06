@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SeccionGamesComponent } from './seccion-games/seccion-games.component';
+import { TarjetasComponent } from './tarjetas/tarjetas.component';
+import { PantallaJuegosComponent } from './pantalla-juegos/pantalla-juegos.component';
+import { PantallaPrincipalComponent } from './pantalla-principal/pantalla-principal.component';
+import { InfoJuegosComponent } from './info-juegos/info-juegos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SeccionGamesComponent
+    SeccionGamesComponent,
+    TarjetasComponent,
+    PantallaJuegosComponent,
+    PantallaPrincipalComponent,
+    InfoJuegosComponent
   ],
   imports: [
     BrowserModule,
