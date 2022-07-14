@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tarjetas',
@@ -7,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TarjetasComponent implements OnInit {
 
+  @Input() Nombreportada:string="Megaman Zero Collection";
+
+  @Input() ImagenPortada:string="./assets/megaman.jpg";
+
+
   constructor() { }
 
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void { }
 
 }

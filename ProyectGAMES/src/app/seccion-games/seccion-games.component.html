@@ -1,24 +1,8 @@
 <div class="contenedor_lista_juegos">
 
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    <app-tarjetas></app-tarjetas>
-    
+    <app-tarjetas *ngFor="let juegos of ListaGeneral.results" [Nombreportada]="juegos.name" [ImagenPortada]="juegos.background_image">{{juegos}}</app-tarjetas>
+
+    <br>
+    <br>
+
 </div>

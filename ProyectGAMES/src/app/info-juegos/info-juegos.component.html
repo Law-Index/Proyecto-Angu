@@ -1,19 +1,66 @@
-<div class="padre-info-juegos scale-in-hor-center">
-
-    <h1 class="titulos_de_juegos shadow-drop-br">Megaman Zero COllection</h1>
+<div class="padre-info-juegos">
         
-    <div class="hijo-info shadow-drop-br">
+    <div class="hijo-info shadow-drop-br kenburns-bottom">
 
-        <img src="./assets/megaman.jpg" alt="">
-
-        <div class="info-de-hijo">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate adipisci sit autem officiis laboriosam, nisi beatae in neque! Voluptates cum laudantium tempore nihil obcaecati nostrum nobis itaque hic facere officia odio dolores ipsum ipsa voluptas, atque ex in quaerat minus quam ducimus. Optio, unde odit. Iusto voluptas ab quo facilis explicabo quam laudantium distinctio beatae hic! Voluptatem officia itaque deserunt repellat alias expedita magni qui inventore possimus debitis, architecto quia accusantium esse! Commodi numquam a facere inventore repellat quam fugit suscipit, illo corrupti nobis sunt, repellendus asperiores aspernatur ex, incidunt placeat similique autem rerum cupiditate laboriosam voluptatum saepe enim voluptate!</p>
+        <div class="padre-titulo">
+            <h1 class="titulos_de_juegos">Megaman Zero COllection</h1>
         </div>
-        <div class="info-de-hijo">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate adipisci sit autem officiis laboriosam, nisi beatae in neque! Voluptates cum laudantium tempore nihil obcaecati nostrum nobis itaque hic facere officia odio dolores ipsum ipsa voluptas, atque ex in quaerat minus quam ducimus. Optio, unde odit. Iusto voluptas ab quo facilis explicabo quam laudantium distinctio beatae hic! Voluptatem officia itaque deserunt repellat alias expedita magni qui inventore possimus debitis, architecto quia accusantium esse! Commodi numquam a facere inventore repellat quam fugit suscipit, illo corrupti nobis sunt, repellendus asperiores aspernatur ex, incidunt placeat similique autem rerum cupiditate laboriosam voluptatum saepe enim voluptate!</p>
-        </div>
-
 
     </div>
+    
+    <div class="info-de-hijo shadow-drop-br"> 
+
+        <div class="info-completa" >
+
+            <nav ngbNav #nav="ngbNav" class="nav-tabs">
+
+                <ng-container ngbNavItem>
+                    <a ngbNavLink class="titulos">Informacion</a>
+                  <ng-template ngbNavContent>
+                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                      master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+                      keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
+                      salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                  </ng-template>
+                </ng-container>
+
+                <ng-container ngbNavItem>
+                  <a ngbNavLink class="titulos" >Screenshot</a>
+                  <ng-template ngbNavContent>
+                    <p>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko
+                      farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts
+                      ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar
+                      helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson
+                      8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
+                      stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                  </ng-template>
+                </ng-container>
+
+                <ng-container ngbNavItem>
+                  <a ngbNavLink class="titulos" >Trailer</a>
+                  <ng-template ngbNavContent>
+                    <p>Sed commodo, leo at suscipit dictum, quam est porttitor sapien, eget sodales nibh elit id diam. Nulla facilisi.
+                      Donec egestas ligula vitae odio interdum aliquet. Duis lectus turpis, luctus eget tincidunt eu, congue et odio.
+                      Duis pharetra et nisl at faucibus. Quisque luctus pulvinar arcu, et molestie lectus ultrices et. Sed diam urna,
+                      egestas ut ipsum vel, volutpat volutpat neque. Praesent fringilla tortor arcu. Vivamus faucibus nisl enim, nec
+                      tristique ipsum euismod facilisis. Morbi ut bibendum est, eu tincidunt odio. Orci varius natoque penatibus et
+                      magnis dis parturient montes, nascetur ridiculus mus. Mauris aliquet odio ac lorem aliquet ultricies in eget
+                      neque. Phasellus nec tortor vel tellus pulvinar feugiat.</p>
+                  </ng-template>
+                </ng-container>
+              </nav>
+              
+              <div [ngbNavOutlet]="nav" class="mt-2">
+                <p>hooihdoihasodihasd</p>
+              </div>
+
+
+
+        </div>
+
+    </div>
+
+    <br>
+
 
 </div>

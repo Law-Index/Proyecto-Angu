@@ -9,6 +9,8 @@ import { TarjetasComponent } from './tarjetas/tarjetas.component';
 import { PantallaJuegosComponent } from './pantalla-juegos/pantalla-juegos.component';
 import { PantallaPrincipalComponent } from './pantalla-principal/pantalla-principal.component';
 import { InfoJuegosComponent } from './info-juegos/info-juegos.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { InfoJuegosComponent } from './info-juegos/info-juegos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
