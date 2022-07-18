@@ -11,6 +11,8 @@ import { PantallaPrincipalComponent } from './pantalla-principal/pantalla-princi
 import { InfoJuegosComponent } from './info-juegos/info-juegos.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
+import { PantallaSearchComponent } from './pantalla-search/pantalla-search.component';
+import { SeccionGamesSearchComponent } from './seccion-games-search/seccion-games-search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
     TarjetasComponent,
     PantallaJuegosComponent,
     PantallaPrincipalComponent,
-    InfoJuegosComponent
+    InfoJuegosComponent,
+    PantallaSearchComponent,
+    SeccionGamesSearchComponent
   ],
   imports: [
     BrowserModule,

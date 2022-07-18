@@ -1,6 +1,11 @@
+
+<div class="nombre_pagina">
+    <h1>P.O.K Games</h1>
+</div>
+
 <div class="contenedor_lista_juegos">
 
-    <app-tarjetas *ngFor="let juegos of ListaGeneral.results" [Nombreportada]="juegos.name" [ImagenPortada]="juegos.background_image">{{juegos}}</app-tarjetas>
+    <app-tarjetas *ngFor="let juegos of ListaGeneral.results" [IDjuego]="juegos.id" [Nombreportada]="juegos.name" [ImagenPortada]="juegos.background_image" >{{juegos}}</app-tarjetas>
 
     <br>
     <br>

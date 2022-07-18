@@ -5,24 +5,11 @@
     grid-template-columns: auto auto auto auto;
 
     background-color: #D8F3DC;
-    padding-top: 8px;
+    padding-top: 160px;
+
     gap: 20px;
 }
-.nombre_pagina {
-  background-color: #D8F3DC;
-  display:flex;
-  justify-content: center;
-  padding-top: 85px;
-}
 
-.nombre_pagina h1 {
-  background-color: #6cd2a2;
-  border-radius: 20px;
-  padding: 5px;
-  width: 200px;
-  text-align: center;
-  font-weight: 600;
-}
 
 
 

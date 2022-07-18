@@ -9,6 +9,14 @@ export class MiservicioService {
   constructor(private http:HttpClient) { }
 
   obtenerJuegos() {
-    return this.http.get("https://api.rawg.io/api/games?key=73a7407d4e6d457a9e7d357e00ff02d8")
+    return this.http.get("https://api.rawg.io/api/games?key=b901a884c5f54458bc7e2151edc65748")
+  }
+
+  obtenerSearch(Busqueda:string) {
+    return this.http.get(`https://api.rawg.io/api/games?key=b901a884c5f54458bc7e2151edc65748&search=${Busqueda}`)
+  }
+
+  obtenerInformacionD(id:string) {
+    return this.http.get(`https://api.rawg.io/api/games/${id}?key=b901a884c5f54458bc7e2151edc65748`)
   }
 }

@@ -1,0 +1,8 @@
+<div class="contenedor_lista_juegos">
+
+    <app-tarjetas [routerLink]="['Infojuegos']" *ngFor="let juego of juegoEspecifico.results" [IDjuego]="juego.id" [Nombreportada]="juego.name" [ImagenPortada]="juego.background_image">{{juego}}</app-tarjetas>
+
+    <br>
+    <br>
+
+</div>

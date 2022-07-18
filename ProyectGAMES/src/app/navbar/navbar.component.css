@@ -36,8 +36,7 @@
 .contenedor_barra input{
     width: 80%;
     height: 34px;
-    border-radius: 100px 0px 0px 100px;
-    border: none;
+    border: solid 2px #0b3924;
     font-size: 23px;
     padding: 10px;
 }
@@ -48,8 +47,14 @@
     border: solid 2px #0b3924;
     background-color: #40916C;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 0;
     transition: 0.5s;
+}
+.contenedor_barra .boton_home {
+    border-radius: 100px 0px 0px 100px;
+    font-size: 20px;
+    font-weight: 0;
 }
 .contenedor_barra button:hover {
     background-color: white;
