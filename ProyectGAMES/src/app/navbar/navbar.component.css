@@ -1,8 +1,9 @@
 .contenedor_Nav {
     position: fixed;
-    width: 1000px;
     height: 60px;
-    left: 174px;
+    left: 10%;
+    top:0;
+    right: 10%;
     z-index: 1;
 
     background-color: #74C69D;
